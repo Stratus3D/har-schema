@@ -1,7 +1,9 @@
 #!/usr/bin/env sh
 
-set -euo pipefail
-IFS=$'\t\n'
+# Unofficial Bash "strict mode"
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo
+IFS=$'\t\n' # Stricter IFS settings
 
 DIR="$(dirname "$0")"
 SCHEMA="$DIR/../har-schema.json"
