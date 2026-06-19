@@ -1,0 +1,45 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "test",
+      "version": "1.0"
+    },
+    "entries": [
+      {
+        "startedDateTime": "2024-01-01T00:00:00.000Z",
+        "time": 100,
+        "request": {
+          "method": "GET",
+          "url": "https://example.com/",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [],
+          "queryString": [],
+          "headersSize": 100,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [],
+          "headers": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": 100,
+          "bodySize": 0
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 90,
+          "receive": 10
+        }
+      }
+    ]
+  }
+}
